@@ -5,3 +5,6 @@ cloc
 gdb
 macdown
 git-flow
+tmux
+pyenv
+neovim

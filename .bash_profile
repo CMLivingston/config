@@ -20,3 +20,7 @@ alias branch_info="git for-each-ref --sort=committerdate refs/heads/ --format='%
 function squash() {
   git reset --soft HEAD~$1 && git commit --edit -n -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 }
+
+function zshme() {
+  chsh -s /bin/zsh
+}
