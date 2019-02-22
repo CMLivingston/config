@@ -24,3 +24,6 @@ function squash() {
 function zshme() {
   chsh -s /bin/zsh
 }
+
+# Sweet custom prompt
+#export PS1="\`nonzero_return\` \e[32m\]\t\[\e[m\]\[\e[31m\][\[\e[m\]\[\e[31m\]\w\[\e[m\]\[\e[31m\]]\[\e[m\]\[\e[36m\]\`parse_git_branch\`\[\e[m\] \[\e[33m\]⚡\[\e[m\] "
