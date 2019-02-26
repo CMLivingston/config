@@ -1,11 +1,12 @@
 # PROMPT="[%*] %n:%c $(git_prompt_info)%(!.#.$) "
 
-fast_git_prompt_info() {
-  git branch | awk '/^\*/ { print $2 }'
+parse_git_branch() {
+  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
+  echo "${BRANCH}"
 }
 
 # For multi-GB repos with slow git...
-FAST_PROMPT='%{$fg[green]%}[%*]%{$reset_color%} %{$fg[cyan]%}%~%{$reset_color%} $fg[yellow]%}$(fast_git_prompt_info)%{$reset_color%} %{$fg[blue]%}%(!.#.⚡)%{$reset_color%} '
+FAST_PROMPT='%{$fg[green]%}[%*]%{$reset_color%} %{$fg[cyan]%}%~%{$reset_color%} $fg[yellow]%}$(parse_git_branch)%{$reset_color%} %{$fg[blue]%}%(!.#.⚡)%{$reset_color%}'
 
 ORIG_PROMPT='%{$fg[green]%}[%*]%{$reset_color%} %{$fg[cyan]%}%~%{$reset_color%}$(git_prompt_info) %{$fg[blue]%}%(!.#.⚡)%{$reset_color%} '
 

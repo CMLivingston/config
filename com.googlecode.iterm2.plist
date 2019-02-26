@@ -1514,7 +1514,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAc7Gdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -1530,22 +1530,41 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-560 168 445 77 -1920 0 1920 1177 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>1177 1686 400 129 737 800 1920 1177 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 289 620 392 0 0 1280 777 </string>
+	<string>410 370 620 392 0 0 1440 878 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>181 308 606 469 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-1777 695 796 473 -1920 0 1920 1177 </string>
+	<string>451 445 770 429 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-1920 0 1917 1177 -1920 0 1920 1177 </string>
+	<string>0 25 1440 1153 0 0 1440 2538 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-1920 0 1675 1177 -1920 0 1920 1177 </string>
+	<string>0 25 1440 1153 0 0 1440 2538 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>-1920 0 1675 1177 -1920 0 1920 1177 </string>
+	<string>0 1307 1440 1231 0 0 1440 2538 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>0 25 1675 1153 0 0 1920 1178 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>0 25 1440 1130 0 0 1440 2538 </string>
+	<key>NSWindow Frame iTerm Window 5</key>
+	<string>136 25 1675 1153 0 0 1920 1178 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>157 25 1675 1153 0 0 1920 1178 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>178 25 1675 1153 0 0 1920 1178 </string>
+	<key>NSWindow Frame iTerm Window 8</key>
+	<string>199 25 1675 1153 0 0 1920 1178 </string>
+	<key>NSWindow Frame iTerm Window 9</key>
+	<string>220 25 1675 1153 0 0 1920 1178 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2137,7 +2156,7 @@
 			<key>Normal Font</key>
 			<string>MesloLGLForPowerline-Regular 18</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -3476,6 +3495,8 @@
 			<string>/Users/clivingston</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
@@ -3534,19 +3555,17 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-12-12T00:53:04Z</date>
+	<date>2019-02-21T18:12:24Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
-	<key>SUSkippedVersion</key>
-	<string>3.2.6beta4</string>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.2.7beta4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
