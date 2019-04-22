@@ -1,6 +1,6 @@
 # Basic Checklist
 
-- run setup.sh
-- Download ST3 (Marina default color scheme)
-- Install productivity essentails: shiftit and flux
+- $ ./setup.sh
+- Download and install ST3 (Marina default color scheme)
+- Install flux for late night sesssions
 - Profit!

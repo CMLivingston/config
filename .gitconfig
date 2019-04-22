@@ -1,10 +1,7 @@
 [user]
-	name = Chris Livingston
-	email = clivingston@twitter.com
+	name = clivingston
 [diff]
 	renames = true
-[http]
-	postBuffer = 524288000
 [color]
 	ui = true
 [alias]

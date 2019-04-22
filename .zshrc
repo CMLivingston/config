@@ -1,7 +1,7 @@
 export PATH=/usr/local/Cellar/php/7.2.8/bin:$PATH
 export VISUAL='/usr/bin/vim'
 export EDITOR='$VISUAL'
-source ~/workspace/source/codereview/dotfile
+
 source ~/.git-prompt.sh
 
 # Shell commands
@@ -37,7 +37,7 @@ export ZSH="/Users/clivingston/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="chippy"
+ZSH_THEME="minima"
 DEFAULT_USER=$USER  # Hide user and hostname from agnoster prompt
 
 # Set list of themes to pick from when loading at random
