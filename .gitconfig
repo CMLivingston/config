@@ -1,0 +1,12 @@
+[user]
+	name = Chris Livingston
+	email = clivingston@twitter.com
+[diff]
+	renames = true
+[http]
+	postBuffer = 524288000
+[color]
+	ui = true
+[alias]
+	co = checkout
+	s = status
