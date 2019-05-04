@@ -4,7 +4,7 @@ function banner() {
   printf "\033[0;90m[\033[0;94m${1}\033[0;90m]\033[0m\n"
 }
 
-banner "Setting up Chris' dev tools...let us rock!"
+banner "Setting up Chris' dev tools...let's rock!"
 
 # Install homebrew
 banner "Installing Homebrew"
@@ -25,6 +25,10 @@ cp ./init.vim ~/.config/nvim/  # Setup NVIM config
 banner "Installing iTerm"
 brew cask install iterm2
 cp ./com.googlecode.iterm2.plist ~/
+# Install shell integration for iterm for things like quick traverse and option click to location.
+# N.B. This will only append setup cmd to current shell config file (.zshrc), so bash needs to be 
+# added manually.
+curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
 
 # ST3
 banner "Installing ST3"
@@ -45,7 +49,6 @@ cp ./.bash_profile ~/.bash_profile
 cp ./.zshrc ~/.zshrc
 cp ./minima.zsh-theme ~/.oh-my-zsh/themes
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-
 
 # Use ZSH.
 chsh -s /bin/zsh
